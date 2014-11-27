@@ -1,6 +1,8 @@
 JavaScript-patterns
 ===================
 
+#### Циклы for
+
 ```javascript
 
     for ( var = i; i < myArray.length; i++) {
