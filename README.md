@@ -17,3 +17,12 @@ for ( var = i; max = myArray.length; max < i; i++) {
    //   При таком подходе значение свойства length будет извлекаться всего
   //    один раз за все время работы цикла.
 };
+
+```javascript
+
+  1. Simple mode, it styles document scrollbar:
+  $(document).ready(
+    function() {  
+      $("html").niceScroll();
+    }
+  );
