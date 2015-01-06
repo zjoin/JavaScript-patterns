@@ -1,8 +1,6 @@
 JavaScript patterns && tricks
 ===================
 
-#### Циклы for
-
 ```javascript
 
     for ( var = i; i < myArray.length; i++) {
@@ -23,7 +21,7 @@ JavaScript patterns && tricks
 };
 
 
-#### Get Pseudo-Element Properties with JavaScript
+//   Get Pseudo-Element Properties with JavaScript
     
     // Get the color value of .element:before
        var color = window.getComputedStyle(
