@@ -46,7 +46,8 @@ for ( var = i; i < myArray.length; i++) {
 //output like this:
 
 <html 
-    data-useragent='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.112 Safari/535.1' 
+    data-useragent='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) 
+    AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.112 Safari/535.1' 
     data-platform='MacIntel'>
     
 //How use:
