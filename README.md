@@ -28,9 +28,40 @@ for ( var = i; i < myArray.length; i++) {
        ).getPropertyValue('content');        
     
 
+// CSS: User Agent Selectors
 
+<html>
+    <head> … </head>    
+    <body>
+        <script>
+            var b = document.documentElement;
+              b.setAttribute('data-useragent',  navigator.userAgent);
+              b.setAttribute('data-platform', navigator.platform );
+              b.className += ((!!('ontouchstart' in window) || !!('onmsgesturechange' in window))?' touch':'');
+        </script>
+        …
+    </body>
+</html>
 
+//output like this:
 
+<html 
+    data-useragent='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.112 Safari/535.1' 
+    data-platform='MacIntel'>
+    
+//How use:
+
+html[data-useragent*='Chrome/13.0'] .nav{
+    background: tomato // or something like this
+}
+
+// For different platform
+html[data-useragent*='Chrome/13.0'][data-platform='Win32']
+
+//you may have noticed the "touch" class on touch devices
+.touch li .action{
+    opacity:1;
+}
 
 
 
