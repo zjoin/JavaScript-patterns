@@ -15,7 +15,7 @@ for ( var = i; i < myArray.length; i++) {
 };
 
 
-//   Get Pseudo-Element Properties with JavaScript
+// 2   Get Pseudo-Element Properties with JavaScript
     
     // Get the color value of .element:before
        var color = window.getComputedStyle(
@@ -28,7 +28,7 @@ for ( var = i; i < myArray.length; i++) {
        ).getPropertyValue('content');        
     
 
-// CSS: User Agent Selectors
+// 3 CSS: User Agent Selectors
 
 <html>
     <head> … </head>    
